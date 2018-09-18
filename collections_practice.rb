@@ -42,6 +42,7 @@ end
 	   # array.select do |el|
     #   # start_w_a.push(el) if el.start_with("a")
     #   el[0] == "a"
+
 	def sum_array()
 	   return array.inject(:+)  
 	end 
