@@ -36,12 +36,7 @@ end
   def find_a(array) 
    array.find_all do  |word| 
    return word.start_with(“a”)
-
-    # array.select do |el|
-    #   # start_w_a.push(el) if el.start_with("a")
-    #   el[0] == "a"
       end 
-      # start_w_a
   end 
 	
 	def sum_array()
