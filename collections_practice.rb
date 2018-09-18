@@ -36,7 +36,7 @@ end
     n = []
    array.find_all do |word| 
   # n <<  word.start_with?(“a”)
-  return  word[0] == "a"
+  word[0] == "a"
       end 
       # return n 
   end 
