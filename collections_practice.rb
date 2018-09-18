@@ -32,17 +32,12 @@ def kesha_maker(array)
   return array
 end 
   
-  
   def find_a(array) 
-   array.find_all do  |word| 
+   array.find_all do |word| 
    return word.start_with(“a”)
       end 
   end 
 	
-	   # array.select do |el|
-    #   # start_w_a.push(el) if el.start_with("a")
-    #   el[0] == "a"
-
 	def sum_array(array)
-	   return array.inject do { |:&| }
+	   return array.inject(:+)  
 	end 
