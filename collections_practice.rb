@@ -43,6 +43,6 @@ end
     #   # start_w_a.push(el) if el.start_with("a")
     #   el[0] == "a"
 
-	def sum_array()
+	def sum_arrayarray()
 	   return array.inject(:+)  
 	end 
