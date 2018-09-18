@@ -48,6 +48,8 @@ def add_s(array)
   array.collect do |word|
    if  array[1] == word 
    return word + "s"
+ else 
+   return word
 
 # array.each_with_index.collect do |word, index|
 #     unless word[index] == 1
