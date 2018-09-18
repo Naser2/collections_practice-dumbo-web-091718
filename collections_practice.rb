@@ -48,6 +48,7 @@ end
 array.each_with_index.collect |word, index|
 return word = word + “s” 
 unless word[index] == 1
+end 
 
 end 
 
