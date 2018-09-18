@@ -50,7 +50,7 @@ def add_s(array)
    return word + "s"
     else 
    return word
-
+ end 
 # array.each_with_index.collect do |word, index|
 #     unless word[index] == 1
 #   end 
