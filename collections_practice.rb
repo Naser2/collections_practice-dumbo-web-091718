@@ -45,12 +45,12 @@ end
 	   return array.inject(:+)  
 	end 
 def add_s(array)	
- array.each_with_index.collect do |word, index|
-   
-    unless word[index] == 1
-  end 
-   return word = word + “s” 
-  end 
+  array.collect do ||
+# array.each_with_index.collect do |word, index|
+#     unless word[index] == 1
+#   end 
+#   return word = word + “s” 
+#   end 
 
 end 
 
