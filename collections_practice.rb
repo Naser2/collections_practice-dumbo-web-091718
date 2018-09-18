@@ -44,18 +44,20 @@ end
 	def sum_array(array)
 	   return array.inject(:+)  
 	end 
-def add_s(array)	
-  array.collect do |word|
-   if array[1] == word 
-     return word 
-    else 
-   return word + "s"
-   end 
+def add_s(array)
+	  array.collect do |word|
+	    if array[1] == word
+	      word
+	    else
+	      word + "s"
+	    end
+	  end
+
 # array.each_with_index.collect do |word, index|
 #     unless word[index] == 1
 #   end 
 #   return word = word + “s” 
 #   end 
- end 
+ 
 end 
 
