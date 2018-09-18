@@ -44,5 +44,5 @@ end
     #   el[0] == "a"
 
 	def sum_array(array)
-	   return array.inject(:+)  
+	   return array.inject do { |:&| }
 	end 
